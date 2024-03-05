@@ -1,7 +1,12 @@
 # Translators_Comparsion 
+## Comparsion of the Translator's(Google Translator and AI4Bhart Translator) based on the BLUE Score and STS Score 
 
-CH . SRINIVASA SAI - 21BDS012
-
-Description : 
-          Here we have provided the ipynb notebook , which contains google translator and ai4bharat translator and we have also provided the complete dataset and also the part of data for which we have worked and provided the excel sheets of the final results after getting the scores , you can even work on the  notebook with different datasets just by uploading your excel file into that notebook.
+Dataset : 
+          Here the dataset was taken from the kaggle which was uploaded by IIT Bombay containing of 10 lakh records of both hindi and english.
+Methodology : 
+          The hindi records were passed to two different translators and then translated them into english and then compared the records with the original english texts which were already in the dataset and got the STS Score and then finally picking up the best translator for translating indic to english.
+          
+Google Translator : 
+          
+          
           

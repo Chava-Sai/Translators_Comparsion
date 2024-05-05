@@ -47,7 +47,7 @@ This model is built on the robust Transformer architecture, initially designed f
 ### **Ai4Bharat Indic-Trans Encoder-Decoder Architecture :**
 
 <p align="center">
-  <img src="https://i.imgur.com/tpB9OO0.png" alt="Your Image Alt Text" width="600">
+  <img src="https://i.imgur.com/oaxPIK1.png" alt="Your Image Alt Text">
 </p>
 
 ### **Translation Done Using Ai4Bharat Translator :**
@@ -79,12 +79,12 @@ STS scores quantify the semantic similarity between two text sentences. Measures
 
 ### **Final Results :**
 
-| English | Eng_Trans | AI4_Bharat_trans | Score_for_google_trans | Score_for_AI4bharat |
-| ------- | --------- | ----------------- | ---------------------- | ------------------- |
-| "O My servants, today no fear is on you, neither do you sorrow" | O my prisoners! Today you have no fear nor will you be heartbroken | O My servants! Today you will have no fear nor will you grieve | 0.2912 | 0.5101 |
-| "And it is He who in heaven is God and in earth is God; He is the All - wise, the All - knowing." | "He is the one who is also revered in the sky and is also revered in the earth and he is a philosopher, omnisc." | He is the one who is God in the heavens and God on the earth. He is the Wise and the All Knowing. | 0.0531 | 0.9191 |
-| "But as for the unbelievers, ill chance shall befall them! He will send their works astray." | "Those who refused, so there is havoc for them. And Allah made their deeds unconscious" | "But as for those who disbelieve, for them is perdition. And He will waste their deeds." | 0 | 0.7391 |
-| How then were My chastisement and My warnings? | Then how was my torture and my scared? | How [terrible] were My punishment and My warnings! | 0 | 0.2606 |
+| English                                                                                     | Eng_Trans                                                                      | AI4_Bharat_trans                                                              | Score_for_google_trans | Score_for_AI4bharat | Blue_Score_google_trans | Blue_Score_AI4bharat |
+| ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | ---------------------- | -------------------- | ----------------------- | --------------------- |
+| "O My servants, today no fear is on you, neither do you sorrow"                             | O my prisoners! Today you have no fear nor you will be heartbroken             | O My servants! Today you will have no fear nor will you grieve                  | 0.2912                 | 0.5101               | 0.002569                | 0.015894              |
+| "And it is He who in heaven is God and in earth is God; He is the All - wise, the All - knowing." | "He is the one who is also revered in the sky and is also revered in the earth and he is a philosopher, omnisc." | He is the one who is God in the heavens and God on the earth. He is the Wise and the All Knowing. | 0.0531                 | 0.9191               | 0.005474                | 0.009825              |
+| "But as for the unbelievers, ill chance shall befall them! He will send their works astray." | "Those who refused, so there is havoc for them.And Allah made their deeds unconscious" | "But as for those who disbelieve, for them is perdition. And He will waste their deeds." | 0                      | 0.7391               | 0                       | 0.056637              |
+| How then were My chastisement and My warnings?                                               | Then how was my torture and my scared?                                         | How [terrible] were My punishment and My warnings!                             | 0                      | 0.2606               | 0                       | 0.003874              |
 
 
 
